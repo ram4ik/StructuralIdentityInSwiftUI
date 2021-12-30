@@ -11,6 +11,12 @@
 		9505E12B277E24D9003F836B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9505E12A277E24D9003F836B /* ContentView.swift */; };
 		9505E12D277E24DA003F836B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9505E12C277E24DA003F836B /* Assets.xcassets */; };
 		9505E130277E24DA003F836B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9505E12F277E24DA003F836B /* Preview Assets.xcassets */; };
+		9505E137277E24F6003F836B /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9505E136277E24F6003F836B /* UserView.swift */; };
+		9505E139277E2582003F836B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9505E138277E2582003F836B /* User.swift */; };
+		9505E13B277E25A8003F836B /* LoggedUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9505E13A277E25A8003F836B /* LoggedUser.swift */; };
+		9505E13D277E25B6003F836B /* AnonymousUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9505E13C277E25B6003F836B /* AnonymousUserView.swift */; };
+		9505E13F277E275F003F836B /* AchievementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9505E13E277E275F003F836B /* AchievementView.swift */; };
+		9505E141277E2797003F836B /* ComplexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9505E140277E2797003F836B /* ComplexView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		9505E12A277E24D9003F836B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9505E12C277E24DA003F836B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9505E12F277E24DA003F836B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9505E136277E24F6003F836B /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		9505E138277E2582003F836B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9505E13A277E25A8003F836B /* LoggedUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedUser.swift; sourceTree = "<group>"; };
+		9505E13C277E25B6003F836B /* AnonymousUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnonymousUserView.swift; sourceTree = "<group>"; };
+		9505E13E277E275F003F836B /* AchievementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementView.swift; sourceTree = "<group>"; };
+		9505E140277E2797003F836B /* ComplexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +67,12 @@
 				9505E12A277E24D9003F836B /* ContentView.swift */,
 				9505E12C277E24DA003F836B /* Assets.xcassets */,
 				9505E12E277E24DA003F836B /* Preview Content */,
+				9505E136277E24F6003F836B /* UserView.swift */,
+				9505E138277E2582003F836B /* User.swift */,
+				9505E13A277E25A8003F836B /* LoggedUser.swift */,
+				9505E13C277E25B6003F836B /* AnonymousUserView.swift */,
+				9505E13E277E275F003F836B /* AchievementView.swift */,
+				9505E140277E2797003F836B /* ComplexView.swift */,
 			);
 			path = StructuralIdentityInSwiftUI;
 			sourceTree = "<group>";
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9505E139277E2582003F836B /* User.swift in Sources */,
 				9505E12B277E24D9003F836B /* ContentView.swift in Sources */,
+				9505E137277E24F6003F836B /* UserView.swift in Sources */,
+				9505E13D277E25B6003F836B /* AnonymousUserView.swift in Sources */,
+				9505E13F277E275F003F836B /* AchievementView.swift in Sources */,
 				9505E129277E24D9003F836B /* StructuralIdentityInSwiftUIApp.swift in Sources */,
+				9505E13B277E25A8003F836B /* LoggedUser.swift in Sources */,
+				9505E141277E2797003F836B /* ComplexView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
